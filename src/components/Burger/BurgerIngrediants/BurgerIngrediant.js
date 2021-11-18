@@ -3,9 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './BurgerIngrediant.css'
 class  BurgerIngerdiant extends React.Component  {
-  constructor (props){
-    super(props)
-  }
+  
     render(){
         let ingrediant = null
         switch(this.props.type) {
